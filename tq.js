@@ -32,6 +32,10 @@ console.log(NEST(1,2));
 
 //this is #1
 //
-function TEST1() {
+function TEST1(a,b) {
+	a = 1; 
+	return a + b;
 	
 }
+
+console.log(TEST1(3,5));
