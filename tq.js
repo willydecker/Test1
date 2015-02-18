@@ -39,3 +39,16 @@ function TEST1(a,b) {
 }
 
 console.log(TEST1(3,5));
+
+
+//this is #2
+//
+function thisis1() {
+	return "HAHA";
+}
+var thisis2 = function() {
+	return "HOHO";
+}
+
+console.log(thisis1());
+console.log(thisis2());
